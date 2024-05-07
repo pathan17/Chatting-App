@@ -176,7 +176,7 @@ const MayGroup = () => {
                   </div>
                   <div className="text">
                     <h2 className=" text-sm font-bold text-red-500 ">
-                      {item?.userName}
+                      {item.userName}
                     </h2>
                   </div>
                 </div>
@@ -206,17 +206,17 @@ const MayGroup = () => {
                 <div className="profile flex justify-center items-center">
                   <h2 className="text-white font-bold text-lg uppercase">
                     {" "}
-                    {item?.adminName[0]}{" "}
+                    {item.adminName[0]}{" "}
                   </h2>
                 </div>
                 <div className="text">
                   <h2 className=" text-sm font-bold text-red-500 ">
-                    {item?.adminName}
+                    {item.adminName}
                   </h2>
                   <h3 className="text-lg font-serif text-teal-600 ">
-                    {item?.groupName}
+                    {item.groupName}
                   </h3>
-                  <h2>{item?.groupIntroName}</h2>
+                  <h2>{item.groupIntroName}</h2>
                 </div>
               </div>
               <div className="btn flex gap-3">
