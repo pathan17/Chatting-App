@@ -25,7 +25,7 @@ const Navbar = () => {
 
   //  croper information start
   const [image, setImage] = useState("");
-  const [cropData, setCropData] = useState("#");
+  const [cropData, setCropData] = useState("");
   console.log(cropData);
   const cropperRef = createRef();
 
