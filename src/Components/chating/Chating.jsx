@@ -62,7 +62,7 @@ const Chating = () => {
       });
       setMessageSend(arr);
     });
-  }, [activeChatName.active.id]);
+  }, [activeChatName.active?.id]);
 
   //  handle send message end
 
@@ -115,7 +115,7 @@ const Chating = () => {
           </div>
         </div>
         <div className="p-3">
-          {activeChatName.active.status == "single" ? (
+          {activeChatName.active?.status == "single" ? (
             messageSend.map((item, i) => {
               return item.whoSendId == data.uid ? (
                 item.msg ? (

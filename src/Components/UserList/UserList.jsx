@@ -109,19 +109,19 @@ const UserList = () => {
               <div key={i} className="main_group">
                 <div className="group">
                   <div className="profile">
-                    <ProfilePicture imgId={item.id} />
+                    <ProfilePicture imgId={item?.id} />
                   </div>
                   <div className="text">
-                    <h1> {item.username} </h1>
-                    <h2> {item.email} </h2>
+                    <h1> {item?.username} </h1>
+                    <h2> {item?.email} </h2>
                   </div>
                 </div>
                 <div className="btn">
-                  {friendList.includes(item.id + data.uid) ||
-                  friendList.includes(data.uid + item.id) ? (
+                  {friendList.includes(item?.id + data?.uid) ||
+                  friendList.includes(data?.uid + item?.id) ? (
                     <button className="Button_v_2">friend</button>
-                  ) : friendRequest.includes(item.id + data.uid) ||
-                    friendRequest.includes(data.uid + item.id) ? (
+                  ) : friendRequest.includes(item?.id + data?.uid) ||
+                    friendRequest.includes(data?.uid + item?.id) ? (
                     <button className="Button_v_2">panding...</button>
                   ) : (
                     <button
@@ -140,19 +140,19 @@ const UserList = () => {
               <div key={i} className="main_group">
                 <div className="group">
                   <div className="profile">
-                    <ProfilePicture imgId={item.id} />
+                    <ProfilePicture imgId={item?.id} />
                   </div>
                   <div className="text">
-                    <h1> {item.username} </h1>
-                    <h2> {item.email} </h2>
+                    <h1> {item?.username} </h1>
+                    <h2> {item?.email} </h2>
                   </div>
                 </div>
                 <div className="btn">
-                  {friendList.includes(item.id + data.uid) ||
-                  friendList.includes(data.uid + item.id) ? (
+                  {friendList.includes(item?.id + data?.uid) ||
+                  friendList.includes(data?.uid + item?.id) ? (
                     <button className="Button_v_2">friend</button>
-                  ) : friendRequest.includes(item.id + data.uid) ||
-                    friendRequest.includes(data.uid + item.id) ? (
+                  ) : friendRequest.includes(item?.id + data?.uid) ||
+                    friendRequest.includes(data?.uid + item?.id) ? (
                     <button className="Button_v_2">panding...</button>
                   ) : (
                     <button

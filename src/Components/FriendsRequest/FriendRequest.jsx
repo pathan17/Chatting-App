@@ -66,10 +66,10 @@ return (
                 <div key={item.id} className="main_group">
                 <div className="group">
                     <div className="profile">
-                    <ProfilePicture imgId={item.senderId} />
+                    <ProfilePicture imgId={item?.senderId} />
                     </div>
                     <div className="text">
-                        <h1> {item.senderName} </h1>
+                        <h1> {item?.senderName} </h1>
                        
                     </div>
                 </div>
