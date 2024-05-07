@@ -53,9 +53,9 @@ const Chating = () => {
       snapshot.forEach((item) => {
         if (
           (item.val().whoSendId == data.uid &&
-            item.val().whoReceiveId == activeChatName.active.id) ||
+            item.val().whoReceiveId == activeChatName.active?.id) ||
           (item.val().whoReceiveId == data.uid &&
-            item.val().whoSendId == activeChatName.active.id)
+            item.val().whoSendId == activeChatName.active?.id)
         ) {
           arr.push(item.val());
         }
@@ -110,7 +110,7 @@ const Chating = () => {
         <div className=" sticky z-10 top-0 left-0 flex gap-4 items-center px-3 pt-3 border-b pb-3 border-red-700 bg-white">
           <div className="h-[70px] w-[70px] rounded-full bg-blue-700"></div>
           <div className=" text-sm font-bold text-green-400">
-            <h1> {activeChatName.active.name} </h1>
+            <h1> {activeChatName.active?.name} </h1>
             <p>online</p>
           </div>
         </div>
