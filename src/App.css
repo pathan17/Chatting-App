@@ -1,0 +1,145 @@
+.registration .main_inputs input{
+  @apply w-full my-[20px] border border-green-500 py-2 px-4 rounded-lg outline-yellow-600 flex items-center
+}
+.registration .lottie h1{
+  @apply text-4xl text-green-600 font-bold text-center mb-5 mt-5 uppercase hover:text-yellow-600
+}
+.registration .main_inputs .from_input{
+  @apply mt-20 text-center shadow-lg p-7 rounded-lg
+}
+.registration .main_inputs h1{
+  @apply w-full bg-green-900 text-2xl text-white font-bold text-center mb-7 uppercase py-4 rounded-lg transition-all hover:bg-yellow-500 hover:text-green-900
+}
+
+/* button create start */
+.Button_v_1{
+  @apply px-8 py-2 bg-green-900 text-white font-bold rounded-lg capitalize hover:bg-yellow-500 hover:text-green-900
+}
+.Button_v_2{
+  @apply px-3 py-1 text-sm bg-green-900 text-white font-bold rounded-sm capitalize hover:bg-yellow-500 hover:text-green-900
+}
+.Button_v_3{
+  @apply px-2 py-1 text-sm bg-green-900 text-white font-bold rounded-lg capitalize hover:bg-yellow-500 hover:text-green-900
+}
+.Button_v_4{
+  @apply px-3 py-1 text-sm bg-red-900 text-white font-bold rounded-sm capitalize hover:bg-yellow-500 hover:text-green-900
+}
+.Button_v_5{
+  @apply px-3 py-1 text-sm bg-yellow-900 text-white font-bold rounded-sm capitalize hover:bg-yellow-500 hover:text-green-900
+}
+.Button_v_6{
+  @apply px-3 py-1 text-sm bg-red-500 text-white font-bold rounded-sm capitalize hover:bg-yellow-500 hover:text-green-900
+}
+/* button create end */
+
+/* eye position select start */
+.registration .eye{
+  @apply relative
+}
+.registration .eyeOff{
+  @apply absolute right-5 top-[50%] translate-y-[-50%] cursor-pointer
+}
+/* eye position select end */
+
+/* error message start */
+.registration .main_inputs .errorMess{
+  @apply text-red-600 text-sm font-bold capitalize mb-3
+}
+/* error message end */
+.forgetPassword  input{
+  @apply w-full my-[20px] border border-green-500 py-2 px-4 rounded-lg outline-yellow-600 flex items-center
+}
+/* navbar css information start */
+.main_menu{
+  @apply bg-blue-400 py-4
+}
+.main_menu .profile{
+  @apply flex gap-5 justify-center items-center
+}
+.main_menu .profile h2{
+  @apply text-lg text-black font-bold uppercase
+}
+.main_menu .profile .img{
+  @apply w-[70px] h-[70px] rounded-full bg-yellow-400 overflow-hidden
+}
+.main_menu .profile .text{
+  @apply text-sm font-bold text-black
+}
+.main_menu .icon{
+  @apply flex gap-16 justify-center items-center text-slate-200 text-3xl
+}
+.main_menu .icon svg{
+  @apply hover:text-yellow-300
+}
+
+.main_menu .img h1{
+  @apply absolute  left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] font-bold text-3xl text-red-600 z-[999] capitalize cursor-pointer
+}
+.main_menu .img .overlay{
+  @apply absolute  left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] font-bold text-4xl text-white  group-hover:block
+
+
+}
+/* navbar css information end */
+
+/* main contant informaton start */
+.main_contant{
+  @apply py-7  container mx-auto flex justify-between flex-wrap 
+}
+.main_contant .item{
+  @apply   px-1   mb-6 relative  border-2 border-blue-700 w-[32%]  h-[200px]  overflow-y-scroll 
+}
+
+.main_contant .menu_item{
+  @apply fixed w-[28%] bg-white py-3 
+}
+
+.main_contant .menu_item .text_tittle{
+  @apply flex justify-between items-center
+}
+.main_contant h1{
+  @apply text-2xl text-black font-bold capitalize
+}
+/* main contant informaton end */
+
+/* all group list information css start */
+.all{
+  @apply relative 
+}
+.main{
+  @apply flex justify-between items-center bg-white  py-4 px-4 sticky top-0 left-0 shadow-2xl shadow-red-100
+}
+.main .text{
+  @apply text-2xl font-bold text-black capitalize shadow-2xl shadow-white
+}
+.main .img{
+  @apply text-2xl font-bold text-black capitalize
+}
+.main_group .text h1{
+  @apply text-lg font-bold text-black capitalize shadow-2xl shadow-white
+}
+.main_group{
+  @apply flex justify-between items-center mb-2
+}
+.group{
+  @apply  flex items-center gap-5
+}
+.main_group .profile{
+  @apply  h-[60px] w-[60px] rounded-full bg-amber-900
+}
+/* all group list information css start */
+
+/* modal information stasrt */
+.modal{
+  @apply h-full w-full bg-green-600 absolute z-[999] top-0 left-0 flex justify-center items-center
+}
+.modal .box{
+  @apply py-7 px-[20px] bg-white rounded-lg
+}
+.modal .box h2{
+  @apply  text-3xl font-bold text-green-900 capitalize mb-3
+}
+.crop{
+  @apply h-[100px] w-[100px] rounded-full overflow-hidden  bg-red-500 flex justify-center items-center mx-auto
+}
+/* modal information end */
