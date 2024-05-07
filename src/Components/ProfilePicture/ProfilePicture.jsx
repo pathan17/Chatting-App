@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getDownloadURL, getStorage, ref } from "firebase/storage";
+import {getDownloadURL, getStorage, ref} from "firebase/storage"
 
 const ProfilePicture = ({ imgId }) => {
   let [ProfilePicture, setProfilePicture] = useState("");
