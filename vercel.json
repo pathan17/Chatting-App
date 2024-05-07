@@ -1,0 +1,25 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/Login",
+            "dest":"/"
+        },
+        {
+            "src":"/Home",
+            "dest":"/"
+        },
+        {
+            "src":"/forgetPassword",
+            "dest":"/"
+        },
+        {
+            "src":"/chat",
+            "dest":"/"
+        }
+       
+    ]
+}
